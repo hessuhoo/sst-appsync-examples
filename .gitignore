@@ -35,6 +35,17 @@ node_modules/
 # TypeScript v1 declaration files
 typings/
 
+# typescript
+*.js
+*.d.ts
+
+# misc
+.DS_Store
+
+# sst build output
+.build
+.sst
+
 # TypeScript cache
 *.tsbuildinfo
 
@@ -66,3 +77,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+/.idea/

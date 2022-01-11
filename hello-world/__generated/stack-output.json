@@ -1,0 +1,11 @@
+{
+  "your-stage-hello-world-appsync-stack": {
+    "stage": "placeholder",
+    "appSyncApiUrl": "placeholder",
+    "appSyncApiKey": "placeholder",
+    "stackName": "placeholder",
+    "appSyncApiId": "placeholder",
+    "appSyncApiArn": "placeholder",
+    "region": "placeholder"
+  }
+}
