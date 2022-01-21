@@ -1,0 +1,13 @@
+{
+  "placeholder": {
+    "lambdaAuthorizerFunctionName": "placeholder",
+    "stage": "placeholder",
+    "appSyncApiUrl": "placeholder",
+    "appSyncApiKey": "placeholder",
+    "stackName": "placeholder",
+    "appSyncApiId": "placeholder",
+    "appSyncApiArn": "placeholder",
+    "lambdaAuthorizerArn": "placeholder",
+    "region": "placeholder"
+  }
+}
