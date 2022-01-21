@@ -1,0 +1,21 @@
+type Item @aws_api_key @aws_lambda {
+  id: ID!
+  message: String
+  secretMessage: String @aws_lambda
+}
+
+type UserItem @aws_lambda {
+  id: ID!
+  userMessage: String
+}
+
+type AdminItem @aws_lambda {
+  id: ID!
+  adminMessage: String
+}
+
+type Query {
+  getItem: Item @aws_lambda @aws_api_key
+  getUserItem: UserItem @aws_lambda
+  getAdminItem: AdminItem @aws_lambda
+}

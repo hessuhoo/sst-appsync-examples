@@ -6,9 +6,16 @@ Start by installing the dependencies.
 
 ```bash
 $ npm install
+$ npx sst start --outputs-file __generated/stack-output.json
 ```
 
+Go to aws appsync console, and have fun with the queries
+
 ## Commands
+
+### `npx generate-type`
+
+Generates graphql types from schema, do this when schema is changed 
 
 ### `npx sst start --outputs-file __generated/stack-output.json`
 

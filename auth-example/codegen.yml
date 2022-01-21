@@ -1,0 +1,22 @@
+overwrite: true
+schema:
+  - src/schema.graphql #your schema file
+  - src/aws-scalars.graphql #your schema file
+
+# and this 👇
+config:
+  scalars:
+    AWSJSON: string
+    AWSDate: string
+    AWSTime: string
+    AWSDateTime: string
+    AWSTimestamp: number
+    AWSEmail: string
+    AWSURL: string
+    AWSPhone: string
+    AWSIPAddress: string
+
+generates:
+  __generated/graphql-types.ts:
+    plugins:
+      - typescript
