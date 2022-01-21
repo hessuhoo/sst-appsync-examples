@@ -4,7 +4,7 @@ Missing sst & appsync examples that I could not found direct answer from interne
 
 ## Getting started
 
-Set up your aws accounts & credentials, then go to example folder and follow further instructions
+Set up your aws account & credentials, then go to example folder and follow further instructions
 `[example-folder]/README.md`
 
 ```bash
