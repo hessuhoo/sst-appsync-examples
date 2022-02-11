@@ -1,0 +1,23 @@
+type Item {
+  id: ID!
+  message: String
+  dateTime: AWSDateTime
+}
+
+type Person {
+  id: ID!
+  name: String
+  dateTime: AWSDateTime
+  friendId: String
+  friend: Person # nested query, cached
+  parentId: String
+  kids: [Person] # nested query, cached
+}
+
+
+type Query {
+  getItemById(id: ID!): Item #cached
+  listItems: [Item!]! #cached
+  getPersonById(id: ID!): Person # not cached
+}
+

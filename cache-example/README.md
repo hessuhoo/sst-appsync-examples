@@ -13,7 +13,7 @@ Go to aws appsync console, and have fun with the queries
 
 ## Commands
 
-### `npx graphql-codegen`
+### `npx generate-type`
 
 Generates graphql types from schema, do this when schema is changed 
 
