@@ -6,6 +6,7 @@ Start by installing the dependencies.
 
 ```bash
 $ npm install
+$ npx graphql-codegen
 $ npx sst start --outputs-file __generated/stack-output.json
 ```
 
